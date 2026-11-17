@@ -1,0 +1,12 @@
+{
+  "name": "homebase",
+  "version": "1.2.1",
+  "description": "Find every subscription. Kill the ones you don't want.",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  },
+  "author": "Mara Voss",
+  "license": "MIT",
+  "dependencies": {}
+}

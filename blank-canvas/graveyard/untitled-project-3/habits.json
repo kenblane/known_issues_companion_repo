@@ -1,0 +1,12 @@
+{
+  "app": "Loopr",
+  "user": "mara",
+  "habits": [
+    {
+      "name": "used Loopr",
+      "streak": 6,
+      "log": [true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+    }
+  ],
+  "last_opened": "spring"
+}

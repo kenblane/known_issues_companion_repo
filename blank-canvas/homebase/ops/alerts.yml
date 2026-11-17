@@ -1,0 +1,38 @@
+# alerts.yml
+#
+# Built, tested, and genuinely hoped never to be seen outside of a
+# controlled environment. Privately suspected to be a waste of an evening.
+
+on_call_rotation:
+  - mara
+  # that's the rotation. the shift never ends. it just occasionally lets her sleep.
+
+escalation_policy:
+  - after: 0m
+    notify: mara
+  - after: 15m
+    notify: mara
+  - after: 30m
+    notify: mara
+
+observers:
+  - name: Structural Integrity
+    role: cat
+    action_items: none   # no hands
+
+alerts:
+  - name: error-rate-spike
+    title: "ERROR RATE SPIKE: production"
+    condition: error_rate > 5% for 1m
+    notify: phone
+
+  - name: db-connections
+    title: "DATABASE CONNECTIONS: 100% CAPACITY"
+    condition: db.connections.used / db.connections.max >= 1.0
+    notify: phone
+    sound: shriek   # assigned in a moment of dark humour, now deeply regretted
+
+servers:
+  - name: the-little-guy
+    count: 1
+    replicas: 0   # there is no replica. there has never been a replica.

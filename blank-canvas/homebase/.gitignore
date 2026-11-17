@@ -1,0 +1,7 @@
+node_modules/
+.env
+.DS_Store
+
+# homebase-v2-CLEAN/
+#   Deleted without ceremony. Three hours, one forty-minute tutorial video,
+#   and a man with an extremely calm voice. We don't talk about it.

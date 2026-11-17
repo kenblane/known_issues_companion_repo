@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "final2",
+  "version": "0.0.1",
+  "description": "replaces every swear word on a webpage with the word gosh. why. (unknown)",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["gosh.js"]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+$ git log --oneline --reverse    (selected)
+
+a1f0c3e Initial commit
+4b2d9e1 add users, subscriptions, transactions_raw
+7c19aa0 cleanTxn: normalise transaction descriptions (11/15 passing)
+9e03f12 subscriptionDetector2
+b8814d7 subscriptionDetectorFINAL
+c00ffee tmp
+d4e5f60 fix crash when cancelling PeakMind Pro
+e17a2b9 fix flow, for real this time
+f2c3d4e cleanTxn: 14/15 passing. (15 is not going to happen)
+0a0b0c0 add readme lol
+1b2c3d4 add RULES_FOR_BUDDY.md
+2c3d4e5 fix settings typo (Cancelation -> Cancellation)          [Buddy]
+3d4e5f6 consolidate cleanTxn duplicate logic                      [Buddy]
+4e5f6a7 revert caching layer (nobody asked)
+5f6a7b8 Merge PR #241: quick fix for the export button            [Buddy]
+6a7b8c9 Merge PR #242: settings screen typo                       [Buddy]
+7b8c9d0 Merge branch 'experiment-fast-cancel' (picked recent Mara)
